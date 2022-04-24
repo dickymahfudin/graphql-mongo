@@ -4,6 +4,10 @@
   "main": "index.js",
   "author": "dickymahfudin",
   "license": "MIT",
+  "scripts": {
+    "dev": "ts-node-dev --respawn --transpile-only src/index.ts",
+    "build": "tsc"
+  },
   "dependencies": {
     "@typegoose/typegoose": "^9.8.1",
     "apollo-server": "^3.6.7",
